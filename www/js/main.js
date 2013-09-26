@@ -233,5 +233,17 @@ jQuery(function($) {
         event.preventDefault();
     });
     
+	$("#licence-dialog").dialog({
+		//autoOpen: false,
+		modal: true,
+		width: '90%',
+		height: 'auto'
+	});
+	
+	$(".show-licence").click(function() {
+		$("#licence-dialog").dialog("open");
+		return false;
+	});
+	
 });
 

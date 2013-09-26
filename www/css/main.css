@@ -128,3 +128,113 @@ td.total_win
 }
 
 #payDiv .span1 { font-weight: bold; }
+
+/* Licence */
+.licence-layer{
+	padding: 19px;
+}
+.licence-layer img{
+	border: 1px solid silver;
+}
+/* SMS LoVa style*/
+#mobile-dialog{
+	font-size: 0.7em;
+}
+#sms-tabs{
+	font-size: 1.2em;
+}
+.ui-widget{
+	font-family: Calibri, sans-serif;
+/*	font-size: 0.9em;*/
+}
+.ui-helper-reset li{
+	line-height: 1.2;
+}
+.t-center{
+	text-align: center;
+}
+.t-left{
+	text-align: left;
+}
+.t-right{
+	text-align: right;
+}
+.a-left{
+	float: left;
+}
+.a-right{
+	float: right;
+}
+.clear{
+	font-size: 0;
+	line-height: 0;
+	width: 0;
+	height: 0;
+	clear: both;
+}
+.operator .note{
+	font-style: italic;
+	color: olive;
+}
+.operator .table-layout{
+	padding: 20px 25px;
+}
+.operator .tariffs{
+	width: 100%;
+	border: 1px solid white/*#0e90d2*/;
+	border-collapse: collapse;
+	background-color: white;
+}
+.operator .title{
+	margin: 3px 0;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+.operator .properties{
+	font-size: 1.1em;
+	font-weight: bold;
+}
+.tariffs td{
+	padding: 3px 6px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: silver;
+}
+.operator .description{
+	font-size: 1.1em;
+	padding: 20px 0 10px;
+}
+.operator .silver{
+	background-color: silver;
+}
+.operator h4{
+	color: #06C;
+	font-size: 1.5em;
+}
+.text-white{
+	color: white;
+}
+.text-black{
+	color: #333;
+}
+.text-yellow{
+	color: yellow;
+}
+.text-red{
+	color: red;
+}
+.text-darkblue{
+	color: #036;
+}
+.operator .white{
+	background-color: white;
+}
+.kyivstar .darkblue{
+	background-color: #339;
+}
+.kyivstar .skyblue{
+	background-color: #9CF;
+}
+.kyivstar .cyan{
+	background-color: #CFF;
+}
