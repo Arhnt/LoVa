@@ -234,7 +234,7 @@ jQuery(function($) {
     });
     
 	$("#licence-dialog").dialog({
-		//autoOpen: false,
+		autoOpen: false,
 		modal: true,
 		width: '90%',
 		height: 'auto'

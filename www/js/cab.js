@@ -150,6 +150,20 @@ jQuery(function($) {
     	}
     });
     
+	$("#mobile-dialog").dialog({
+		autoOpen: false,
+		modal: true,
+		width: '90%',
+		height: 'auto'
+	});
+	
+	$("#show-mobile").click(function() {
+		$("#mobile-dialog").dialog("open");
+		return false;
+	});
+	
+	$( "#sms-tabs" ).tabs();
+	
 });
 
 function sendFirstEmail() {

@@ -131,6 +131,7 @@ td.total_win
 
 /* Licence */
 .licence-layer{
+	text-align: center;
 	padding: 19px;
 }
 .licence-layer img{
@@ -178,6 +179,8 @@ td.total_win
 }
 .operator .table-layout{
 	padding: 20px 25px;
+	background-color: silver;
+	border: 1px solid #333;
 }
 .operator .tariffs{
 	width: 100%;
@@ -186,8 +189,8 @@ td.total_win
 	background-color: white;
 }
 .operator .title{
-	margin: 3px 0;
-	font-size: 1.5em;
+	padding: 0.4em 0;
+	font-size: 1.2em;
 	font-weight: bold;
 }
 .operator .properties{
@@ -198,7 +201,7 @@ td.total_win
 	padding: 3px 6px;
 	border-width: 1px;
 	border-style: solid;
-	border-color: silver;
+	border-color: #333;
 }
 .operator .description{
 	font-size: 1.1em;
@@ -206,6 +209,14 @@ td.total_win
 }
 .operator .silver{
 	background-color: silver;
+	border-left-color: silver;
+	border-right-color: silver;
+}
+.operator .white{
+	background-color: white;
+}
+.operator .skyblue{
+	background-color: #9CF;
 }
 .operator h4{
 	color: #06C;
@@ -226,15 +237,15 @@ td.total_win
 .text-darkblue{
 	color: #036;
 }
-.operator .white{
-	background-color: white;
-}
 .kyivstar .darkblue{
 	background-color: #339;
 }
-.kyivstar .skyblue{
-	background-color: #9CF;
-}
 .kyivstar .cyan{
 	background-color: #CFF;
+}
+.life .pink{
+	background-color: #FF8080;
+}
+.mts .red{
+	background-color: red;
 }
