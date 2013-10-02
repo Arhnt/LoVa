@@ -177,6 +177,25 @@ td.total_win
 	font-style: italic;
 	color: olive;
 }
+.operator .operator-logo{
+	padding: 5px 0 0 0;
+}
+.operator .header-layout{
+	height: 29px;
+	padding: 0 25px;
+	margin: 15px 0 15px 0;
+	background-color: silver;
+	border: 1px solid #333;
+	text-align: center;
+	font-size: 19px;
+	line-height: 26px;
+	font-weight: bold;
+	color: #036;
+	vertical-align: bottom;
+}
+.header-layout img{
+	margin-left: 15px;
+}
 .operator .table-layout{
 	padding: 20px 25px;
 	background-color: silver;
@@ -201,7 +220,7 @@ td.total_win
 	padding: 3px 6px;
 	border-width: 1px;
 	border-style: solid;
-	border-color: #333;
+	border-color: #000;
 }
 .operator .description{
 	font-size: 1.1em;
@@ -221,6 +240,10 @@ td.total_win
 .operator h4{
 	color: #06C;
 	font-size: 1.5em;
+}
+.operator .no-border{
+	border-top: none;
+	border-bottom: none;
 }
 .text-white{
 	color: white;
@@ -248,4 +271,32 @@ td.total_win
 }
 .mts .red{
 	background-color: red;
+}
+.mts-brand-label{
+	position: relative;
+}
+.mts-branding{
+	width: 75px;
+	height: 75px;
+	position: absolute;
+	background-position: 5px 5px;
+	background-repeat: no-repeat;
+}
+.mts-office-30{
+	background-image: url(../img/mts_office_30.png);
+}
+.mts-office-50{
+	background-image: url(../img/mts_office_50.png);
+}
+.mts-office-90{
+	background-image: url(../img/mts_office_90.png);
+}
+.mts-office-150{
+	background-image: url(../img/mts_office_150.png);
+}
+.mts-ultra{
+	background-image: url(../img/mts_ultra.png);
+}
+.mts-ultra-vip{
+	background-image: url(../img/mts_ultra_vip.png);
 }
